@@ -1,0 +1,110 @@
+#slide4 {
+	background:url(../images/slide4_bg.jpg) repeat left top;
+	width:100%;
+	padding:86px 0 69px;
+}
+#slide4 h2 {
+	color:#b8b8b8;
+	border-bottom:1px solid #3b3b3b;
+}
+/* ____________________________________ Slide 8 ____________________________________ */ 
+#slide8 {
+	background:url(../images/slide8_bg.jpg) repeat left top;
+	width:100%;
+	padding:86px 0 69px;
+}
+#slide8 h2 {color:#b8b8b8;border-bottom:1px solid #393939;
+}
+
+#slide8 h4 {
+	padding-bottom:10px;
+	color:#acacac;
+}
+/* ____________________________________ Slide 12 ____________________________________ */
+
+#slide12 {
+	background:url(../images/slide12_bg.jpg) repeat left top;
+	background-position:0 0 !important;
+	width:100%;
+	padding:86px 0 69px;
+}
+
+#slide12 h2 {color:#b8b8b8;border-bottom:1px solid #393939;
+}
+
+#slide12 p {color:#888888;
+}
+#slide12 .foto {
+	float:left;
+	margin:0 20px 20px 0;
+}
+
+#slide12 h5 {
+	margin:100px 0 0 0;
+	padding-bottom:8px;
+	text-transform:none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 32px;
+	line-height: 31px;
+	font-weight: 300;
+	color:#acacac;
+}
+
+.client_foto {
+	float:left;
+	position:relative;
+	margin:0 15px 10px 0;
+	height:384px;
+	width:334px;
+}
+.client_foto img {
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:10;
+}
+.foto {z-index:5 !important;}
+
+.contact_det,
+.contact_det a {
+	color:#888888;
+	line-height:26px;
+}
+.contact_det a:hover {color:#f14833;}
+
+/* ______________ SOCIALS ______________ */
+.socials a {
+	display:inline-block;
+	width:27px;
+	height:32px;
+	margin:5px 8px 0;
+	transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-webkit-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+}
+
+.soc1 {
+	background:url(../images/socials.png) no-repeat;
+	background-position:0 0;
+}
+.soc2 {
+	background:url(../images/socials.png) no-repeat;
+	background-position:-47px 0;
+}
+.soc3 {
+	background:url(../images/socials.png) no-repeat;
+	background-position:-94px 0;
+}
+.soc4 {
+	background:url(../images/socials.png) no-repeat;
+	background-position:-141px 0;
+}
+.soc1:hover {background-position:0 -32px;
+}
+.soc2:hover {background-position:-47px -32px;
+}
+.soc3:hover {background-position:-94px -32px;
+}
+.soc4:hover {background-position:-141px -32px;
+}
